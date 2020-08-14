@@ -1,0 +1,15 @@
+Problema 26
+Arbol Binario
+Binary Tree Node
+You are given a table, BST, containing two columns: N and P, where N represents the value of a node in Binary Tree, and P is the parent of N...
+
+
+
+
+select  case 
+        when p is null then concat(n, ' Root')
+        when n in (select distinct p from bst) then concat(n, ' Inner')
+        else concat(n, ' Leaf')
+    end
+from bst
+order by n asc;

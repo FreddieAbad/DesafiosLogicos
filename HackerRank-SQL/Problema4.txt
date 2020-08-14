@@ -1,0 +1,5 @@
+Problema 4
+
+Solucion:
+
+SELECT * FROM CITY WHERE ID=1661;

@@ -1,0 +1,4 @@
+Problema8
+
+Solucion:
+SELECT CITY, STATE FROM STATION;

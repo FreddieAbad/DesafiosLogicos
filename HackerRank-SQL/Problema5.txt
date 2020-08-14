@@ -1,0 +1,5 @@
+Problema 5
+
+Solucion:
+
+SELECT * FROM CITY WHERE COUNTRYCODE='JPN';

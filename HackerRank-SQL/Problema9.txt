@@ -1,0 +1,5 @@
+Problema9
+
+Solucion:
+
+SELECT DISTINCT CITY FROM STATION;
