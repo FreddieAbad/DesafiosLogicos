@@ -1,5 +1,4 @@
-lista=[3, 8, 9, 7, 6]
-k=3
+
 
 # for i in range(k):
 #   pivote=lista[-1]
@@ -17,7 +16,8 @@ k=3
 #       A=A[0:-1]
 #       A.insert(0,pivote)
 #     return A
-
+lista=[3, 8, 9, 7, 6]
+k=3
 def solution(A, K):
     if not A:
         A=A
